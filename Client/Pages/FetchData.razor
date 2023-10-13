@@ -1,6 +1,7 @@
 ﻿@page "/fetchdata"
 @using blazor_wasm_auth0_example.Shared
 @inject HttpClient Http
+@attribute [Authorize] 
 
 <PageTitle>Weather forecast</PageTitle>
 

@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Whole App" type="CompoundRunConfigurationType">
+    <toRun name="blazor-wasm-auth0-example.Client: https" type="LaunchSettings" />
+    <toRun name="blazor-wasm-auth0-example.Server: https" type="LaunchSettings" />
+    <method v="2" />
+  </configuration>
+</component>
