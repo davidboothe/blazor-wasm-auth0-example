@@ -1,10 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
 using blazor_wasm_auth0_example.Shared;
+using Microsoft.AspNetCore.Authorization;
 
 namespace blazor_wasm_auth0_example.Server.Controllers;
 
 [ApiController]
 [Route("[controller]")]
+[Authorize]
 public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
